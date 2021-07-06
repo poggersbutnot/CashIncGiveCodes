@@ -43,6 +43,12 @@ else:
     pass
 ```
 
+## Questions
+> Will You Still Mod PG3D?
+- Yes, i still will. Im just modding other games, to.
+> Is it fast?
+- Im gonna be honest, no. Not really, as it has to do *post()* 3 times until it switches to another user.
+
 ## Game Link
 [Cash Inc](https://play.google.com/store/apps/details?id=com.alegrium.cong2&hl=en&gl=US)
     
