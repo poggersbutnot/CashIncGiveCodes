@@ -1,0 +1,36 @@
+from requests import post, get
+from threading import Thread
+from webbrowser import open
+from sys import exit
+
+QIU = False #quit_if_update
+
+print(get('https://raw.githubusercontent.com/poggersbutnot/CashIncGiveCodes/main/updates').text.replace('\n', ''))
+ver = """1.0
+"""
+if ver != get('https://raw.githubusercontent.com/poggersbutnot/CashIncGiveCodes/main/version').text:
+    print("New update available...")
+    print("Update "+ get('https://raw.githubusercontent.com/poggersbutnot/CashIncGiveCodes/main/version').text.replace('\n', '') + " is availible.")
+    open("https://github.com/poggersbutnot/CashIncGiveCodes")
+    if QIU is True:
+        exit()
+    else:
+        pass
+    if ver.replace('.', '') > get('https://raw.githubusercontent.com/poggersbutnot/CashIncGiveCodes/main/version').text.replace('.', ''):
+        print("So u decided to change the version, but WHY.")
+    else:
+        pass
+else:
+    pass
+
+def repeat():
+    for i in range(50000):
+        a = post('https://www.alegrium.com/cash/index.php/promo/code/'+ str(i), data={'PromoCodeForm[promo_code]': 'Cashinc50k'})
+        if 'You can only redeem the same code once' in a.text:
+            print("User "+ str(i) + " has already claimed this code.")
+        else:
+            print("Given to ID:", str(i))
+
+if __name__ == "__main__":
+    for i in range(1):
+       Thread(target=repeat).start()
