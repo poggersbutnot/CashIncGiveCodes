@@ -1,5 +1,5 @@
 # Info
-*Will give almost the entire player-base 3 promotion codes.*
+*Will give almost the entire player-base 3 promotion codes. (I already gave it to 50 users.. lol)*
 
 ## Changing ID Limit
 
