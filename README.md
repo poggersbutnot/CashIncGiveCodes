@@ -18,7 +18,7 @@ def repeat():
 The code checks if your updated to it's latest version, if not. It will send you to this github page for you to consider updating to the latest version:
 
 ```python
-from requests import post, get
+from requests import get
 from webbrowser import open
 from sys import exit
 
