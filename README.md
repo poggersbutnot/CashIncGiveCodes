@@ -1,2 +1,2 @@
 # CashIncGiveCodes
-Will give almost the entire player-base the code "Cashinc50k"
+Will give almost the entire player-base 3 promotion codes.
