@@ -32,15 +32,15 @@ def repeat():
         if 'You can only redeem the same code once' in a.text:
             print("User "+ str(i) + " has already claimed this code: ", str(codes[0]))
         else:
-            print("Given to "+ codes[0] + " to ID:", str(i))
+            print("Given Code "+ codes[0] + " to ID:", str(i))
         if 'You can only redeem the same code once' in b.text:
             print("User "+ str(i) + " has already claimed this code: ", str(codes[1]))
         else:
-            print("Given to Code "+ codes[1] + " to ID:", str(i))
+            print("Given Code "+ codes[1] + " to ID:", str(i))
         if 'You can only redeem the same code once' in c.text:
             print("User "+ str(i) + " has already claimed this code: ", str(codes[2]))
         else:
-            print("Given "+ codes[2] + " to ID:", str(i))
+            print("Given Code "+ codes[2] + " to ID:", str(i))
 
 if __name__ == "__main__":
     for i in range(1):
