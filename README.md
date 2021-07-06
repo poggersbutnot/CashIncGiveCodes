@@ -48,6 +48,8 @@ else:
 - Yes, i still do. Im just modding other games, to.
 > Is it fast?
 - Im gonna be honest, no. Not really, as it has to do *post()* 3 times until it switches to another user.
+> Was this hard to make?
+- ~~No lol it was easy asf~~
 
 ## Game Link
 [Cash Inc](https://play.google.com/store/apps/details?id=com.alegrium.cong2&hl=en&gl=US)
