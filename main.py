@@ -24,7 +24,7 @@ else:
     pass
 
 def repeat():
-    for i in range(50000):
+    for i in range(1200000):
         a = post('https://www.alegrium.com/cash/index.php/promo/code/'+ str(i), data={'PromoCodeForm[promo_code]': 'Cashinc50k'})
         if 'You can only redeem the same code once' in a.text:
             print("User "+ str(i) + " has already claimed this code.")
